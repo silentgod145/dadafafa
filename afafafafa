@@ -90,7 +90,7 @@ function Library:Create(xHubName,xGameName)
 
     Sidebar.Name = "Sidebar"
     Sidebar.Parent = Main
-    Sidebar.BackgroundColor3 = Color3.fromRGB(40, 42, 60)
+    Sidebar.BackgroundColor3 = Color3.fromRGB(142, 66, 133)
     Sidebar.Size = UDim2.new(0, 140, 0, 370)
 
     SidebarCorner.Name = "SidebarCorner"
@@ -124,7 +124,7 @@ function Library:Create(xHubName,xGameName)
 
     ActualSide.Name = "ActualSide"
     ActualSide.Parent = Sidebar
-    ActualSide.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    ActualSide.BackgroundColor3 = Color3.fromRGB(142, 66, 133)
     ActualSide.BackgroundTransparency = 1.000
     ActualSide.BorderSizePixel = 0
     ActualSide.Position = UDim2.new(0, 0, 0.172972977, 0)
@@ -145,7 +145,7 @@ function Library:Create(xHubName,xGameName)
 
     GameName.Name = "GameName"
     GameName.Parent = Sidebar
-    GameName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    GameName.BackgroundColor3 = Color3.fromRGB(142, 66, 133)
     GameName.BackgroundTransparency = 1.000
     GameName.BorderSizePixel = 0
     GameName.Position = UDim2.new(-0.00714285718, 0, 0.0810810775, 0)
@@ -157,7 +157,7 @@ function Library:Create(xHubName,xGameName)
 
     TabHolder.Name = "TabHolder"
     TabHolder.Parent = Main
-    TabHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    TabHolder.BackgroundColor3 = Color3.fromRGB(142, 66, 133)
     TabHolder.BackgroundTransparency = 1.000
     TabHolder.BorderSizePixel = 0
     TabHolder.Position = UDim2.new(0.244827583, 0, 0.024324324, 0)
@@ -253,7 +253,7 @@ function Library:Create(xHubName,xGameName)
 
             LabelFrame.Name = tostring(Name).."_Label"
             LabelFrame.Parent = Tab
-            LabelFrame.BackgroundColor3 = Color3.fromRGB(55, 74, 251)
+            LabelFrame.BackgroundColor3 = Color3.fromRGB(142, 66, 133)
             LabelFrame.Position = UDim2.new(0.0456621014, 0, 0, 0)
             LabelFrame.Size = UDim2.new(0, 408, 0, 35)
 
@@ -888,7 +888,7 @@ function Library:Create(xHubName,xGameName)
                     Option.Size = UDim2.new(0, 408, 0, 35)
                     Option.Font = Enum.Font.Gotham
                     Option.Text = v
-                    Option.TextColor3 = Color3.fromRGB(255, 255, 255)
+                    Option.TextColor3 = Color3.fromRGB(142, 66, 133)
                     Option.TextSize = 16.000
     
                     OptionCorner.Name = "OptionCorner"
